@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[200],
+      backgroundColor: Colors.blue[300],
       appBar: AppBar(
         backgroundColor: Colors.blue[600],
         title: Text(
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
               fontFamily: 'Pacifico',
               fontWeight: FontWeight.bold,
               letterSpacing: 3.0,
-              color: Colors.pink[700]),
+              color: Colors.pink[900]),
         ),
       ),
       body: Center(
